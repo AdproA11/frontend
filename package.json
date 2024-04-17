@@ -1,0 +1,13 @@
+{
+  "name": "frontend-subbox",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "postcss src/style_directive.css -o public/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "*",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3"
+  }
+}
